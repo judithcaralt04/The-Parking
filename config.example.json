@@ -1,0 +1,11 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "name": "parking_db",
+    "user": "root",
+    "password": ""
+  },
+  "adminPassword": "change-me",
+  "simulatedVehicleDelay": 10
+}

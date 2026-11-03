@@ -41,10 +41,10 @@ This was a five person team project. My part covered:
 
 1. Requirements: Java JDK 11 or higher, MySQL Server 8.0 or higher, and the MySQL Connector/J jar
 2. Create a database and import `DataBase/parking_db.sql` to set up the tables
-3. Open `config.json` and set your own database host, port, name, user and password
+3. Copy `config.example.json` to `config.json` (it is ignored by Git, so your own settings are never committed) and set your own database host, port, name, user, password and admin password
 4. Run `src/Main.java` from your IDE
 
-Default login: register a new account from the login screen, or sign in as admin using the password set in `config.json`.
+Default login: register a new account from the login screen, or sign in as `admin` using the `adminPassword` you set in `config.json`.
 
 ## Documentation
 

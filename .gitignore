@@ -1,0 +1,17 @@
+# IDE
+.idea/
+*.iml
+out/
+.vscode/
+
+# Build output
+*.class
+target/
+build/
+
+# Local configuration (copy config.example.json to config.json)
+config.json
+
+# OS
+.DS_Store
+Thumbs.db
